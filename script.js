@@ -16,4 +16,9 @@ navToggle.addEventListener("click", () => {
         primaryNav.setAttribute('data-visible', false);
         navToggle.setAttribute('aria-expanded', false);
     }
-});
+})
+
+// let menuToggle = document.querySelector('.nav-toggle');
+    navToggle.onclick = function(){
+        navToggle.classList.toggle('active')
+    }
