@@ -139,24 +139,6 @@ p{
     cursor: pointer;
 }
 
-.nav-toggle[aria-expanded="true"] > .menu-open{
-    display: none;
-}
-
-.nav-toggle[aria-expanded="true"] > .menu-close{
-    display: block;
-}
-
-.nav-toggle[aria-expanded="false"] > .menu-open{
-    display: block;
-}
-
-.nav-toggle[aria-expanded="false"] > .menu-close{
-    display: none;
-}
-
-
-
 
 
 /* nav toggle animation start */
