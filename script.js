@@ -18,7 +18,6 @@ navToggle.addEventListener("click", () => {
     }
 })
 
-// let menuToggle = document.querySelector('.nav-toggle');
     navToggle.onclick = function(){
         navToggle.classList.toggle('active')
     }
